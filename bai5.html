@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let star1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let star2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', ' Aquila', 'Ursa Major', 'Leo'];
+
+  function findStar() {
+      let input =prompt('enter name star');
+      let index=star1.indexOf(input);
+      if (input==star1[index]) {
+          alert(star2[index])
+      }else {alert('cant find the star')}
+  }
+
+findStar()
+</script>
+</body>
+</html>
